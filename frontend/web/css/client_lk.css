@@ -1,0 +1,270 @@
+
+.form_50p_check {
+    padding-left: 20px;
+    background: url(/cdn/form_check.svg);
+    background-position-x: left;
+    background-repeat: no-repeat;
+    background-position-y: 2px;
+    margin-top: 10px;
+    font-size: 0.8rem;
+}
+
+.patient_card{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.patient_card_container{
+    display: flex;
+    column-gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.patient_card_left{
+    width: 28%;
+}
+.patient_card_left table{
+    font-size: 13px;
+}
+.patient_card_right{
+    width: 69%;
+}
+.patient_card_full{
+    width: 100%;
+}
+
+.form-pagination{
+    list-style-type: none;
+    display: flex;
+    column-gap: 20px;
+    padding: 0px;
+    margin: 0;
+}
+
+.form-inputs{
+    display: flex;
+    flex-wrap: wrap;
+    /*width: 100%;*/
+    /*column-gap: 40px;*/
+    row-gap: 20px;
+    justify-content: space-between;
+}
+.form-inputs.border{
+    background: #fff;
+    padding: 40px;
+    border: 1px solid #e7e7e7;
+    border-radius: 10px;
+}
+.form-input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+.form-input.w-100{
+    width: 100%;
+}
+.form-input.w-3{
+    width: 31%;
+}
+.form-input.w-2{
+    width: 48%;
+}
+.form-input.w-100.inner-w-3{
+    width: 40%;
+    margin-right: 60%;
+}
+.form-inputs-h{
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 800;
+    background: #1c594d;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.form-input *{
+    outline: none!important;
+}
+.form-input .form-input-radio{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.form-input .form-input-radio .radio-row{
+    display: flex;
+    align-items: center;
+}
+.form-input label{
+    margin-bottom: 2px;
+    font-weight: 600;
+    color: #1c594d;
+    font-size: 1.1rem;
+}
+.form-input > label{
+    border-bottom: 1px solid #1c594d;
+    color: #1c594d;
+    padding: 5px;
+    margin-bottom: 20px;
+    padding-left: 0px;
+}
+.form-input select{
+    padding: 10px 10px;
+    border: 1px solid #d8d8d8;
+    border-radius: 3px;
+}
+.form-input [type="text"],
+.form-input [type="number"],
+.form-input textarea{
+    padding: 8px 10px;
+    border: 1px solid #d8d8d8;
+    border-radius: 3px;
+}
+.form-input [type="file"]{
+    padding: 20px;
+    border: 1px solid #dee2e6;
+}
+.form-input [type="date"]{
+    padding: 10px 10px;
+    border: 1px solid #d8d8d8;
+    border-radius: 3px;
+}
+
+.form-input .form-input-radio label,
+.form-input .form-input-checkbox label{
+    color: #333;
+    font-weight: 500;
+    margin-left: 10px;
+}
+input, textarea, button {
+    -webkit-appearance: none;
+    -webkit-font-smoothing: antialiased;
+    resize: none;
+}
+
+.form-pagination-btns{
+    display: flex;
+}
+
+.form-pagination-btns .btn_next,
+.form-pagination-btns .btn_prev,
+.form-pagination-btns .btn_submit{
+    border: none;
+    padding: 10px 20px;
+    background: #dee2e6;
+    cursor: pointer;
+}
+.form-pagination-btns .btn_submit{
+    background: #1c594d;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form-inputs.short-inputs{
+    row-gap: 10px;
+}
+
+.form-inputs.short-inputs label{
+    border: none;
+    padding: 0px;
+    margin: 0;
+}
+
+.form-input .vue-select-date{
+    display: flex;
+}
+.form-input .vue-select-date input[type="date"]{
+    width: 100%;
+}
+
+.form-input input[type="checkbox"] {
+    -webkit-appearance: none;
+    background-color: white;
+    border: 1px solid #01788b;
+    padding: 9px;
+    border-radius: 3px;
+    display: inline-block;
+    position: relative;
+    float:left;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+.form-input input[type="checkbox"]:checked {
+    background-color: #1c594d;
+    border: 1px solid white;
+    color: #fff;
+}
+
+.form-input input[type="checkbox"]:checked:after {
+    content: "";
+    background: url('/cdn/check-mark.svg');
+    position: absolute;
+    top: 0;
+    left: 4px;
+    color: #fff;
+    width: 11px;
+    height: 18px;
+    background-position: center;
+    background-size: cover;
+}
+
+.form-input input[type="radio"] {
+    -webkit-appearance: none;
+    background-color: white;
+    border: 1px solid #1c594d;
+    padding: 9px;
+    border-radius: 3px;
+    display: inline-block;
+    position: relative;
+    float:left;
+    cursor: pointer;
+}
+
+.form-input input[type="radio"]:checked {
+    background-color: #1c594d;
+    border: 1px solid white;
+    color: #fff;
+}
+
+.form-input input[type="radio"]:checked:after {
+    content: "";
+    background: url('/cdn/check-mark.svg');
+    position: absolute;
+    top: 0;
+    left: 4px;
+    color: #fff;
+    width: 11px;
+    height: 18px;
+    background-position: center;
+    background-size: cover;
+}
+
+.form-input .desc{
+    color: #333;
+    font-size: 0.93rem;
+    margin-bottom: 5px;
+}
+.form-input .desc-phone{
+    color: #333;
+}
+
+@media (max-width: 432px) {
+    .form-inputs{
+        width: auto;
+    }
+    .form-input.w-3{
+        width: 100%;
+    }
+    .form-input.w-2{
+        width: 100%;
+    }
+    .form-input.w-100.inner-w-3{
+        margin: 0;
+        width: 100%;
+    }
+    .patient_card_left{
+        display: none;
+    }
+}

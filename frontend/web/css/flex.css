@@ -1,0 +1,133 @@
+.d-none{
+	display: none!important;
+}
+.d-flex{
+    display: flex;
+  }
+  .flex-dir-col{
+    flex-direction: column;
+  }
+  .flex-dir-row{
+    flex-direction: row;
+  }
+  .flex-hor-sb{
+    justify-content: space-between;
+  }
+  .flex-hor-center{
+    justify-content: center;
+  }
+  .flex-vert-sb{
+    align-items: space-between;
+  }
+  .flex-vert-center{
+    align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+  }
+
+  .flex-wrap{
+    flex-wrap: wrap;
+  }
+  
+  @media (max-width: 991px) {
+    .tablet-none{
+      display: none!important;
+    }
+    .mob-flex-wrap{
+        flex-wrap: wrap!important;
+    }
+    .tablet-width-100{
+      width: 100%!important;
+      max-width: 100%!important;
+    }
+    .tablet-width-50{
+      width: 48%!important;
+      max-width: 48%!important;
+    }
+    .tablet-width-30{
+      width: 30%!important;
+      max-width: 30%!important;
+    }
+    .tablet-width-20{
+      width: 20%!important;
+      max-width: 20%!important;
+    }
+    .tablet-flex-hor-end{
+      justify-content: flex-end!important;
+    }
+  }
+  
+  @media (max-width: 495px) { 
+    .mob-none{
+      display: none!important;
+    }
+    .mob-d-flex{
+    	display: flex!important;
+    }
+    .mob-flex-dir-col{
+      flex-direction: column!important;
+    }
+    .mob-flex-dir-col-reverse{
+      flex-direction: column-reverse!important;
+    }
+    .mob-flex-dir-row{
+      flex-direction: row!important;
+    }
+    .mob-flex-dir-row-reverse{
+      flex-direction: row-reverse!important;
+    }
+    .mob-flex-wrap{
+      flex-wrap: wrap;
+    }
+    .mob-width-100{
+      width: 100%!important;
+      max-width: 100%!important;
+    }
+    .mob-width-50{
+      width: 48%!important;
+      max-width: 48%!important;
+    }
+    .mob-width-25{
+      width: 25%!important;
+      max-width: 25%!important;
+    }
+    .mob-padding-0{
+      padding:0!important;
+    }
+    .mob-mb-0{
+      margin-bottom: 0px!important;
+    }
+    .mob-mb-10{
+      margin-bottom: 10px!important;
+    }
+    .mob-mb-20{
+      margin-bottom: 20px!important;
+    }
+    .mob-mt-10{
+      margin-top: 10px!important;
+    }
+    .mob-mt-20{
+      margin-top: 20px!important;
+    }
+    .mob-pt-0{
+      padding-top: 0px!important;
+    }
+    .mob-pt-10{
+      padding-top: 10px!important;
+    }
+    .mob-pt-20{
+      padding-top: 20px!important;
+    }
+    .mob-pb-10{
+      padding-bottom: 10px!important;
+    }
+    .mob-pb-20{
+      padding-bottom: 20px!important;
+    }
+    .mob-hor-scroll{
+      overflow-x: scroll;
+    }
+    .mob-pos-absolute{
+      position: absolute;
+    }
+  }
