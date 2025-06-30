@@ -29,7 +29,7 @@
         "sinergi/browser-detector": "^6.1",
         "lexty/robokassa": "^2.0",
         "flowwow/cloudpayments-php-client": "^2.0",
-        "phpoffice/phpspreadsheet": "1.29"
+        "phpoffice/phpspreadsheet": "^1.29"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.1.0",

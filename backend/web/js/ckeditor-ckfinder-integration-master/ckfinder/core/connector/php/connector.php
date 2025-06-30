@@ -23,7 +23,7 @@
  * Protect against sending warnings to the browser.
  * Comment out this line during debugging.
  */
-// error_reporting(0);
+error_reporting(0);
 
 /**
  * Protect against sending content before all HTTP headers are sent (#186).

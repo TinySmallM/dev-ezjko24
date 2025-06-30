@@ -42,7 +42,7 @@ $config['LicenseKey'] = '';
  Uncomment lines below to enable PHP error reporting and displaying PHP errors.
  Do not do this on a production server. Might be helpful when debugging why CKFinder does not work as expected.
 */
-// error_reporting(E_ALL);
+error_reporting(0);
 // ini_set('display_errors', 1);
 
 /*

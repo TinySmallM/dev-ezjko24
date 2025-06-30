@@ -209,6 +209,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 <?=$this->render('../_blocks/cart_widget')?>
 
+<script src="//code.jivo.ru/widget/M5Gew1resZ" async></script>
+
+
 </body>
 </html>
 <?php $this->endPage() ?>
